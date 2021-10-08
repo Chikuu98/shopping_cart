@@ -48,8 +48,8 @@ if (isset($_POST['remove'])){
 <div class="container-fluid">
     <div class="row px-5">
         <div class="col-md-7">
-            <div class="shopping-cart">
-                <h6>My Cart</h6>
+            <div class="shopping-cart my-3">
+                <h6 class="text-success">Your Cart</h6>
                 <hr>
 
                 <?php
@@ -95,7 +95,7 @@ if (isset($_POST['remove'])){
                         <h6>Amount Payable</h6>
                     </div>
                     <div class="col-md-6">
-                        <h6>$<?php echo $total; ?></h6>
+                        <h6>Rs.<?php echo $total; ?>.00</h6>
                         <h6 class="text-success">FREE</h6>
                         <hr>
                         <h6>$<?php
