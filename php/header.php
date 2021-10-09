@@ -1,5 +1,5 @@
 <header id="header">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow">
         <a href="cindex.php" class="navbar-brand">
             <h3 class="px-5">
                 <i class="fas fa-shopping-basket"></i> Shop Now

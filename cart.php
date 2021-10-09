@@ -75,9 +75,9 @@ if (isset($_POST['remove'])){
 
             </div>
         </div>
-        <div class="col-md-4 offset-md-1 border rounded mt-5 bg-white h-25">
+        <div class="col-md-4 offset-md-1 border rounded mt-5 bg-white h-25 shadow">
 
-            <div class="pt-4">
+            <div class="pt-4 px-4 shadow">
                 <h6>PRICE DETAILS</h6>
                 <hr>
                 <div class="row price-details">
@@ -98,9 +98,9 @@ if (isset($_POST['remove'])){
                         <h6>Rs.<?php echo $total; ?>.00</h6>
                         <h6 class="text-success">FREE</h6>
                         <hr>
-                        <h6>$<?php
+                        <h6>Rs.<?php
                             echo $total;
-                            ?></h6>
+                            ?>.00</h6>
                     </div>
                 </div>
             </div>
